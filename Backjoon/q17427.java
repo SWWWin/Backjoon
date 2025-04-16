@@ -1,4 +1,4 @@
-package math;
+/*package math;
 
 import java.util.Scanner;
 public class q17427 {
@@ -11,3 +11,4 @@ public class q17427 {
         }
     }
 }
+*/

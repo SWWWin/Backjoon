@@ -1,4 +1,4 @@
-package math;
+package math.Backjoon;
 
 public class q25083 {
 

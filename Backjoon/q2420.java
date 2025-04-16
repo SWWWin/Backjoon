@@ -1,4 +1,4 @@
-package math;
+package math.Backjoon;
 
 import java.io.*;
 import java.util.StringTokenizer;

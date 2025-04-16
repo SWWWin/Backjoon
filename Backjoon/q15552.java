@@ -1,4 +1,4 @@
-package math;/*
+package math.Backjoon;/*
 BufferedReader: Scanner와 유사
 Bufferedwriter: System.out.println()과 유사
 

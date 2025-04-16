@@ -1,4 +1,4 @@
-package math;
+package math.Backjoon;
 
 import java.io.BufferedReader;
 import java.io.IOException;

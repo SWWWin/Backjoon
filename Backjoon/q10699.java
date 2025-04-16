@@ -1,4 +1,4 @@
-package math;
+package math.Backjoon;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
