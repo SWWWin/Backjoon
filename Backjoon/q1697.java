@@ -8,8 +8,8 @@ public class q1697 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();  // 수빈이 위치
-        int k = sc.nextInt();  // 동생 위치
+        int n = sc.nextInt();
+        int k = sc.nextInt();
 
         System.out.println(bfs(n, k));
     }
@@ -34,7 +34,7 @@ public class q1697 {
                 }
             }
         }
-        return -1;  // 절대 도달할 수 없는 경우는 없지만, 형식상 넣음
+        return -1;
     }
 
     static class Node {
