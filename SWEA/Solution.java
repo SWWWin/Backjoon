@@ -25,10 +25,6 @@ package math.SWEA;//////////////////////////////////////////////////////////////
 //System.out.println(var);		       				   // 문자열 1개 출력하는 예제
 //System.out.println(AB);		       				     // long 변수 1개 출력하는 예제
 /////////////////////////////////////////////////////////////////////////////////////////////
-import com.sun.source.tree.UsesTree;
-
-import java.time.LocalTime;
-import java.util.HashSet;
 import java.util.Scanner;
 import java.io.FileInputStream;
 
@@ -61,34 +57,7 @@ class Solution
 
         for(int test_case = 1; test_case <= T; test_case++)
         {
-            int N = sc.nextInt();
-            int[][] matrix = new int[N][N];
 
-            for (int i = 0; i < N; i++) {
-                for (int j = 0; j < N; j++) {
-                    matrix[i][j] = sc.nextInt();
-                }
-            }
-
-            int[][] matrixOne = new int[N][N];
-            int[][] matrixTwo = new int[N][N];
-            int[][] matrixThree = new int[N][N];
-
-
-
-            for (int i = 0; i < N; i++) {
-                for (int j = 0; j < N; j ++) {
-                    matrixOne[i][j] = matrix[N - j - 1][i];
-                    matrixTwo[i][j] = matrix[N - i - 1][N - j - 1];
-                    matrixThree[i][j] = matrix[j][N - i - 1];
-                }
-            }
-
-            for (int i = 0; i < N; i++) {
-                for (int j = 0; j < N; j++) {
-                    System.out.print(matrixOne[i][j]);
-                }
-            }
             /////////////////////////////////////////////////////////////////////////////////////////////
 			/*
 				 이 부분에 여러분의 알고리즘 구현이 들어갑니다.
@@ -98,9 +67,3 @@ class Solution
         }
     }
 }
-
-/*
-
-2,0 1,0 0,0
-2,1 1,1 0,1
- */
